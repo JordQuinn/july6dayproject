@@ -68,11 +68,13 @@ function avg (x,y,z){
 // 6.
 // Write a function called `getLength` that takes one parameter (a string) and returns the length
 // Then, write and example of using the function.
-
-function getLength (""){
-	let answer = str.length"";
-	return answer
+function getLength (str){
+        return (str.length)
 }
+
+let string = "THis is the worst thing in the entore world"
+let length = getLength(string)
+console.log(length)
 
 // 7.
 // Write a function called `greaterThan` that takes two parameters
@@ -80,7 +82,13 @@ function getLength (""){
 // Otherwise the function should return `false`.
 // Then, write and example of using the function.
 
-
+function greaterThan (x, y){
+	if (y>x)
+		return true
+	else{
+		return false
+	}
+}
 
 // 8.
 // Write a function called `greet` that takes a
@@ -104,7 +112,7 @@ function greet (name){
 // Then, write and example of using the function.
 
 function madlib (word1, word2, word3, word4){
-	let hero = "Hi! you look " + word1 + " your breath smells " + word2 + " you have nice " word3 + "your feet are" + word4
+	let hero = "Hi! you look " + word1 + " your breath smells " + word2 + " you have nice " + word3 + "your feet are" + word4
 	return hero
 }
 
